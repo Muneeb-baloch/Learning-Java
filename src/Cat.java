@@ -25,6 +25,8 @@ public  class Cat {
         System.out.println(name);
         System.out.println(cl);
     }
+
+
     public static void main(String[] args) {
         System.out.println(Cat.getCatCount());
         Cat cat1 = new Cat();
@@ -32,13 +34,7 @@ public  class Cat {
         cat1.setinfo(4,"lexa", 5);
         cat1.showinfo();
         Cat cat2 = new Cat();
-
-        System.out.println(Cat.getCatCount());
-
+           System.out.println(Cat.getCatCount());
 
     }
-
-
-
-
 }
