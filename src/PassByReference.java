@@ -6,7 +6,7 @@ class Vehicle  {
     int cost;
     String color;
 }
-public class Test {
+public class PassByReference {
     public static void main(String[] args) {
         Vehicle  car1 = new Vehicle ();
         car1.name = "BMW";
