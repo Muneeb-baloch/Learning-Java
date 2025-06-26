@@ -10,11 +10,11 @@ class DemoMobile{
     int price;
     static  String name;
 
-    public  DemoMobile (){ // consider this as a instance block
-         brand = "";
-         price = 200;
-        System.out.println("Demo Mobile Details");
 
+    { // this is instance inializer
+        brand = "";
+        price = 200;
+        System.out.println("Demo Mobile Details");
     }
 
     static {
@@ -26,8 +26,8 @@ class DemoMobile{
 
 public class DemoStaticBlock {
     public static void main(String[] args) throws ClassNotFoundException {
-//        DemoMobile mob1 = new DemoMobile();
-//        DemoMobile mob2 = new DemoMobile();
+        DemoMobile mob1 = new DemoMobile();
+        DemoMobile mob2 = new DemoMobile();
         Class.forName("DemoMobile");
 
 
