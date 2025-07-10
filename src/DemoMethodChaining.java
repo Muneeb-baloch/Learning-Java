@@ -1,7 +1,7 @@
 // Method Chaining
 // Method chaining reduces the need to write the same variable repeatedly.
 // method must return this and type of method must be class or returning class
-// if you  want to print object directly need to convert to String
+// if you  want to print object directly need to convert to Strings
 class DemoStudent {
     String name;
     String city;
